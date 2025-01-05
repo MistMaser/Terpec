@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8c3w84hkd5i0"]
+
+[ext_resource type="Texture2D" uid="uid://2e82d2x5g2gp" path="res://Sprites/BulletPlayer/BulletHand.png" id="1_bo8pc"]
+
+[node name="BulletHand" type="Node"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, -2)
+texture = ExtResource("1_bo8pc")
