@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cs4153y5fd161"]
+
+[ext_resource type="Texture2D" uid="uid://bjbrh77lborhj" path="res://Sprites/Signal_gun.png" id="1_r7s6a"]
+
+[node name="sprMinipistol" type="Node"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10, -10)
+texture = ExtResource("1_r7s6a")

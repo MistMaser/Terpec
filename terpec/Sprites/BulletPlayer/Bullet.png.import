@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dk4urrlknyc85"
-path="res://.godot/imported/BulletWalk.png-cc613710fef818fe8180ca9b835a877a.ctex"
+uid="uid://cbp7bu7hvi5tu"
+path="res://.godot/imported/Bullet.png-4b54bfaafa64a8f5d369598bb40a3e5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/BulletPlayer/BulletWalk.png"
-dest_files=["res://.godot/imported/BulletWalk.png-cc613710fef818fe8180ca9b835a877a.ctex"]
+source_file="res://Sprites/BulletPlayer/Bullet.png"
+dest_files=["res://.godot/imported/Bullet.png-4b54bfaafa64a8f5d369598bb40a3e5f.ctex"]
 
 [params]
 

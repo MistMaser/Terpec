@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdpqyxq1tuo68"
-path="res://.godot/imported/BulletIdle.png-486347d07c53c1363b49c15ee758ffd2.ctex"
+uid="uid://bjbrh77lborhj"
+path="res://.godot/imported/Signal_gun.png-a35b602f8067a892d95dad45eeabe866.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/BulletPlayer/BulletIdle.png"
-dest_files=["res://.godot/imported/BulletIdle.png-486347d07c53c1363b49c15ee758ffd2.ctex"]
+source_file="res://Sprites/Signal_gun.png"
+dest_files=["res://.godot/imported/Signal_gun.png-a35b602f8067a892d95dad45eeabe866.ctex"]
 
 [params]
 

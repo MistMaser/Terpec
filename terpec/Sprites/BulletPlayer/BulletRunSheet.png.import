@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wcffkysnft8c"
-path="res://.godot/imported/BulletHand.png-298f75a07dfe078e3b7201eb7756841e.ctex"
+uid="uid://cimiblnfnw2ki"
+path="res://.godot/imported/BulletRunSheet.png-313cf87eb208672082c17f130d4028db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/BulletPlayer/BulletHand.png"
-dest_files=["res://.godot/imported/BulletHand.png-298f75a07dfe078e3b7201eb7756841e.ctex"]
+source_file="res://Sprites/BulletPlayer/BulletRunSheet.png"
+dest_files=["res://.godot/imported/BulletRunSheet.png-313cf87eb208672082c17f130d4028db.ctex"]
 
 [params]
 
