@@ -1,8 +1,7 @@
-[gd_scene load_steps=60 format=3 uid="uid://tb6fm7dpkdxe"]
+[gd_scene load_steps=59 format=3 uid="uid://tb6fm7dpkdxe"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_qo4ep"]
 [ext_resource type="Texture2D" uid="uid://cimiblnfnw2ki" path="res://Sprites/BulletPlayer/BulletRunSheet.png" id="2_s7heu"]
-[ext_resource type="Script" path="res://Scripts/dynamic_camera.gd" id="3_trytu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c5dta"]
 size = Vector2(12, 16)
@@ -241,20 +240,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_vsyuf")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_x1kim")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_yk2ab")
-}],
-"loop": true,
-"name": &"idle1",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_t3vhk")
 }, {
 "duration": 1.0,
@@ -266,20 +251,6 @@ animations = [{
 "loop": true,
 "name": &"idle2",
 "speed": 4.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_uh8kb")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_8ha1e")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ouokp")
-}],
-"loop": true,
-"name": &"idle3",
-"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -362,29 +333,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_0o45g")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0g0tw")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_h34so")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ifius")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_02m14")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_pefjy")
-}],
-"loop": true,
-"name": &"run1",
-"speed": 7.0
-}, {
-"frames": [{
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_taclr")
 }, {
 "duration": 1.0,
@@ -404,29 +352,6 @@ animations = [{
 }],
 "loop": true,
 "name": &"run2",
-"speed": 7.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_s1s8j")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6baui")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_u5vlw")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_lilac")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_fhvq4")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_qc1f8")
-}],
-"loop": true,
-"name": &"run3",
 "speed": 7.0
 }, {
 "frames": [{
@@ -534,7 +459,4 @@ shape = SubResource("RectangleShape2D_c5dta")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
 position = Vector2(0, -14)
 sprite_frames = SubResource("SpriteFrames_0fkus")
-animation = &"idle3"
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-script = ExtResource("3_trytu")
+animation = &"run6"
