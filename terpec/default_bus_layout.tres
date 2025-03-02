@@ -1,0 +1,16 @@
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://dcuci1y2yh1co"]
+
+[sub_resource type="AudioEffectChorus" id="AudioEffectChorus_hs2j2"]
+resource_name = "Chorus"
+
+[sub_resource type="AudioEffectCompressor" id="AudioEffectCompressor_fc4q3"]
+resource_name = "Compressor"
+threshold = -17.5
+ratio = 47.1
+
+[resource]
+bus/0/volume_db = -10.0692
+bus/0/effect/0/effect = SubResource("AudioEffectChorus_hs2j2")
+bus/0/effect/0/enabled = true
+bus/0/effect/1/effect = SubResource("AudioEffectCompressor_fc4q3")
+bus/0/effect/1/enabled = true
