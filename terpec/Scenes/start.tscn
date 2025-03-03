@@ -1,7 +1,8 @@
-[gd_scene load_steps=36 format=3 uid="uid://dktld5nhs1wcb"]
+[gd_scene load_steps=37 format=3 uid="uid://dktld5nhs1wcb"]
 
 [ext_resource type="Script" path="res://Scenes/start.gd" id="1_d8wiv"]
 [ext_resource type="Texture2D" uid="uid://b13lfsjaytllo" path="res://Sprites/MainLessDis.png" id="1_n4a3s"]
+[ext_resource type="AudioStream" uid="uid://dm21rhpigfrib" path="res://Audio/AudioCutter_MainMenuSound.mp3" id="3_2d38j"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2mn31"]
 atlas = ExtResource("1_n4a3s")
@@ -242,3 +243,7 @@ script = ExtResource("1_d8wiv")
 position = Vector2(288, 162)
 sprite_frames = SubResource("SpriteFrames_o63as")
 animation = &"start"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_2d38j")
+autoplay = true

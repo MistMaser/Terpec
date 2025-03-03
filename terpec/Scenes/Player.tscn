@@ -1,6 +1,6 @@
 [gd_scene load_steps=60 format=3 uid="uid://tb6fm7dpkdxe"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_qo4ep"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_qo4ep"]
 [ext_resource type="Texture2D" uid="uid://cimiblnfnw2ki" path="res://Sprites/BulletPlayer/BulletRunSheet.png" id="2_s7heu"]
 [ext_resource type="Script" path="res://Scripts/dynamic_camera.gd" id="3_trytu"]
 
