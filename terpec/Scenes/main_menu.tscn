@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cva3e0miymeet" path="res://Sprites/MainMenuLoop.png" id="2_lu0tk"]
 [ext_resource type="Script" path="res://Scripts/margin_container.gd" id="3_yecer"]
 [ext_resource type="FontFile" uid="uid://c02wpk0lsp7cg" path="res://Fonts/PixelifySans-SemiBold.ttf" id="4_8gjkb"]
-[ext_resource type="AudioStream" uid="uid://cphxv1vsnr6ve" path="res://Audio/AudioCutter_AudioCutter_MainMenuSoundLoop.mp3" id="5_6pm1d"]
+[ext_resource type="AudioStream" uid="uid://cdxbv77sfx6c7" path="res://Audio/SpinSound1.mp3" id="5_4fs4u"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jki2v"]
 atlas = ExtResource("2_lu0tk")
@@ -112,7 +112,8 @@ text = "ВЫход"
 flat = true
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("5_6pm1d")
+stream = ExtResource("5_4fs4u")
+volume_db = -25.0
 autoplay = true
 parameters/looping = true
 
